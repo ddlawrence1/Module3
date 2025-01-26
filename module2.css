@@ -3,6 +3,7 @@ margin: 0;
 background-position: center;
 background-image: url(WidgetCoLogo.gif);
 background-repeat: no-repeat;
+padding: 0 20px;
 }
 
 article{
@@ -10,12 +11,12 @@ article{
     margin: 0 auto;
    display: block;
    max-width: 800px;
-   padding: 4px 20px;
+   padding: 20px;
 }
 
 section{
 background-color: #fafce1;
-padding: 1%;
+padding: 2%;
 border-style: solid;
 border-color: green;
 text-wrap: justify;
@@ -23,6 +24,7 @@ margin-left: 2%;
 border-left-color: green;
 border-left-width: 2em;
 max-width: 700px;
+margin-bottom: 20px;
 }
 
 section a:link{
@@ -31,18 +33,22 @@ section a:link{
 
 header{
     text-align: center;
-    padding: .5%;
+    padding: 10px 20px;
     font-variant: small-caps;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    border-style: solid;
+    border-right-width: 1em;
+    border-left-width: 0em;
 }
 
 aside{
 padding: 1%;
 text-align: right;
 border-style: solid;
-border-right-color: #393252;
+border-right-color: #444469;
 border-right-width: 1em;
+border-left-width: 0em;
 border-bottom: white;
 border-top: white;
 }
